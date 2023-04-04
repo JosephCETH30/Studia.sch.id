@@ -1,1 +1,3 @@
-# Studia.sch.id
+# C++ Beginner Self Course
+
+&ndash; soon
