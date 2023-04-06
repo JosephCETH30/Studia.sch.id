@@ -3,11 +3,11 @@ Hanya untuk Simpenan Pribadi :)
 
 ## List yang harus dipelajari
 <pre> Source : Adi Setiawan <a href="https://www.youtube.com/watch?v=6-rZAqE2o6c">Youtube</a></pre>
-* [x] Pengenalan C++ <a href="#pengenalan" style="color: white;">(Click Here)</a> <br>
-* [x] Kebutuhan Software untuk Pemrograman <a href="#kebutuhansoftware" style="color: white;">(Click Here)</a> <br>
-* [x] Program C++ Pertama <a href="#programpertama" style="color: white;">(Click Here)</a> <br>
-* [ ] Input dan Output
-* [ ] Tipe data dan Variable
+* [x] Pengenalan C++ <a href="#pengenalan" style="color: white;">(Click Here)</a> <a href="https://www.w3schools.com/cpp/cpp_intro.asp" style="color: white;">Documentation</a> <br>
+* [x] Kebutuhan Software untuk Pemrograman <a href="#kebutuhansoftware" style="color: white;">(Click Here)</a> <a href="https://www.codecademy.com/resources/blog/what-is-c-plus-plus-used-for/" style="color: white;">Documentation</a> <br>
+* [x] Program C++ Pertama <a href="#programpertama" style="color: white;">(Click Here)</a> <a href="https://www.youtube.com/watch?v=6-rZAqE2o6c&t=687s" style="color: white;">Documentation</a> <br>
+* [x] Input dan Output <a href="#iou" style="color: white;">(Click Here)</a> <a href="https://cplusplus.com/doc/tutorial/basic_io/" style="color: white;">Documentation</a> <br>
+* [x] Tipe data dan Variable <a href="#datavar" style="color: white;">(Click Here)</a> <a href="https://blog.rumahcoding.co.id/variabel-dan-tipe-data-pada-c/" style="color: white;">Documentation</a> <br>
 * [ ] Komentator Pemrograman
 * [ ] Struktur Kontrol Percabangan
 * [ ] Struktur Kontrol Perulangan
@@ -37,8 +37,34 @@ using namespace std; // implementasi Penyingkatan Kode
 
 int main(){ // Start block Utama Program
 	
-	cout << "Hey Motherfucker" << endl;
+	cout << "Tulisan yang ditampilkan pada compiler" << endl; // c output
 	
 	return 0;
 }
 </pre>
+
+Setelah itu jika ingin melihat hasil run kita bisa dengan Menekan Execute - Run atau Compile & run <br>
+
+## <div id="iou">Input dan Output</div>
+
+Selanjutnya kita akan Masuk ke dalam Sub-Materi Input dan Output yang dimana kalau digambarkan sebagai kasus sehari hari : <br>
+<pre>User ingin menaruh sebuah angka, dimana angka tersebut ingin dijadikan suatu angka lain melewati sebuah opsi</pre>
+Yang berarti kita harus bisa memecahkan sebuah solusi simple tersebut dengan menggunakan input output variable.
+Contoh Kode yang kita bisa menampilkan hasil output dari sebuah input : <br>
+
+![image](https://user-images.githubusercontent.com/127705735/230265348-92b18e00-c75a-4028-90b0-ee2ba2e49f72.png)
+
+<pre>
+int main() { 
+	
+	int angka; // tipe data yang disimpan adalah integer
+	
+	cout << "masukkan angka : "; // output yang ditampilkan diterminal, bisa diisi oleh user karena terdapat tanda : sebelum kutip
+	cin >> angka; // input yang dimasukkan user akan disimpan sebagai var angka, sesuai identifikasi awal diatas (sebuah nilai)
+	cout << "anda memasukkan angka : " << angka << endl; // output angka yang ditampilkan akan sesuai dengan integer angka yang diinput sebelumnya
+}
+</pre>
+
+Note : Jangan lupa memperhatikan tanda / symbol pada kode karena pada bahasa pemrogramman tertentu tanda tersebut sangatlah sensitif. karena jika error kita akan sulit menemukan lokasinya karena terlalu spesifik kecilnya, apalagi karena kesalahan seperti kepencet (.) atau typos pada kode. 
+
+## <div id="datavar">Tipe Data dan Variable</div>
