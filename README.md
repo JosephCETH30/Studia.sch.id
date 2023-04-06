@@ -132,7 +132,7 @@ Untuk sebuah komentar wajib menggunakan salah satu dari 2 tanda diatas, karena J
 Jadi ketika kita Menemukan suatu Kasus seperti : Seseorang Bisa dinyatakan lulus saja jika Nilai mereka diatas 80 / minimal 75 , Jika tidak maka ia tidak lulus.
 Jika dikaitkan dengan kasus matematika maka bisa diimplementasikan seperti ini : Jika nilai tersebut dibawah 0.35 atau kurang maka ia mendapatkan predikat D, sebaliknya jika tidak maka Menyesuaikan tergantung daripada nilai tersebut. 
 
-#### Contohnya untuk Percabangan if : 
+#### Contohnya untuk Percabangan if #1 : 
 <pre>
 int main() {
 	
@@ -147,7 +147,7 @@ int main() {
 </pre>
 Jika Nilai diatas adalah 60 maka kondisi tidak akan dieksekusi atau menghasilkan error, Karena tidak memenuhi kriteria dari sebuah variable didalam if. atau sebutlah false, karena 60 lebih kecil daripada 75 jadi line if tidak akan dijalankan dan langsung return 0; 
 
-#### Contohnya untuk Percabangan if else : 
+#### Contohnya untuk Percabangan if else #2 : 
 <pre>
 int main() {
 	
@@ -164,3 +164,28 @@ int main() {
 </pre>
 
 else adalah pilihan kedua jika nilai tidak memenuhi kriteria awal (diatas 75), maka output yang akan dieksekusi adalah yang "Kamu remed" karena nilai tidak memenuhi kriteria minimum dari suatu variable / integer.
+
+#### Contohnya Percabangan if else if (biasa disebut if didalam if) #3 : 
+
+<pre>
+int main(){
+    int nilai 80;
+    
+    if (nilai >= 0 && nilai <= 25){
+		cout << "Grade kamu D" << endl; // Jika Nilai diatas sama dengan 0 atau kurang dari sama dengan 25 maka akan mengeksekusi kode baris ini
+	} else if (nilai >= 25 && nilai <= 50){
+		cout << "Grade kamu C" << endl; // Jika Nilai diatas sama dengan 25 atau kurang dari sama dengan 50 maka akan mengeksekusi kode baris ini
+	} else if (nilai >= 50 && nilai <= 75){
+		cout << "Grade kamu B" << endl; // Jika Nilai diatas sama dengan 50 atau kurang dari sama dengan 75 maka akan mengeksekusi kode baris ini
+	} else if (nilai >= 75 && nilai <= 100){
+		cout << "Grade kamu A" << endl; // Jika Nilai diatas sama dengan 75 atau kurang dari sama dengan 100 maka akan mengeksekusi kode baris ini
+	} else {
+		cout << "Tidak mengerjakan ujian" << endl; // Jika nilai tidak sesuai dengan kriteria yang disebutkan maka hasilnya false dan kode baris ini akan dieksekusi.
+	}
+	
+	return 0;
+}
+</pre>
+if else if bisa sepanjang apapun sesuai yang kita mau dan tergantung kebutuhan, dan kita bisa menaruh else terakhir untuk menyatakan nilai tersebut tidak sesuai dengan kriteria manapun (tergantung kondisi kode), untuk mempelajari symbol operasinya : <a href="https://www.petanikode.com/cpp-operator/">Disini</a>
+
+#### Contoh Percabangan Switch case #4 :
