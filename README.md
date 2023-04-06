@@ -132,7 +132,7 @@ Untuk sebuah komentar wajib menggunakan salah satu dari 2 tanda diatas, karena J
 Jadi ketika kita Menemukan suatu Kasus seperti : Seseorang Bisa dinyatakan lulus saja jika Nilai mereka diatas 80 / minimal 75 , Jika tidak maka ia tidak lulus.
 Jika dikaitkan dengan kasus matematika maka bisa diimplementasikan seperti ini : Jika nilai tersebut dibawah 0.35 atau kurang maka ia mendapatkan predikat D, sebaliknya jika tidak maka Menyesuaikan tergantung daripada nilai tersebut. 
 
-Contohnya untuk Percabangan if : 
+#### Contohnya untuk Percabangan if : 
 <pre>
 int main() {
 	
@@ -145,4 +145,22 @@ int main() {
 	return 0;
 }
 </pre>
+Jika Nilai diatas adalah 60 maka kondisi tidak akan dieksekusi atau menghasilkan error, Karena tidak memenuhi kriteria dari sebuah variable didalam if. atau sebutlah false, karena 60 lebih kecil daripada 75 jadi line if tidak akan dijalankan dan langsung return 0; 
 
+#### Contohnya untuk Percabangan if else : 
+<pre>
+int main() {
+	
+	int nilai = 60; // nilai dari suatu tipe data
+	
+	if (nilai >= 75) { // Jika nilai lebih besar atau sama dengan 75 atau sebutlah jika nilai tersebut adalah True maka kode dibawah akan dieksekusi
+		cout << "lulus" << endl; // maka nilai tersebut dinyatakan lulus karena nilai tipe datanya adalah 80 otomatis memenuhi kriteria
+	} else {
+		cout << "kamu remed" << endl; // Tapi Jika nilai tersebut tidak memenuhi kriteria maka output baris ini yang akan keluar
+	}
+	
+	return 0;
+}
+</pre>
+
+else adalah pilihan kedua jika nilai tidak memenuhi kriteria awal (diatas 75), maka output yang akan dieksekusi adalah yang "Kamu remed" karena nilai tidak memenuhi kriteria minimum dari suatu variable / integer.
