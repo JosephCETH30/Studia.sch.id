@@ -10,7 +10,7 @@ Hanya untuk Simpenan Pribadi :)
 * [x] Tipe data dan Variable <a href="#datavar" style="color: white;">(Click Here)</a> <a href="https://blog.rumahcoding.co.id/variabel-dan-tipe-data-pada-c/" style="color: white;">Documentation</a> <br>
 * [x] Komentator Pemrograman <a href="#komen" style="color: white;">(Click Here)</a> <a href="https://www.youtube.com/watch?v=6-rZAqE2o6c&t=687s" style="color: white;">Documentation</a>
 * [x] Struktur Kontrol Percabangan <a href="#strukturkontrol" style="color: white;">(Click Here)</a> <a href="https://www.scaler.com/topics/control-structure-in-cpp/#:~:text=Control%20Structures%20are%20used%20to,else%20ladder%20and%20switch%20statements." style="color: white;">Documentation</a>
-* [ ] Struktur Kontrol Perulangan
+* [x] Struktur Kontrol Perulangan <a href="#perulangan" style="color: white;">(Click Here)</a> <a href="https://www.w3schools.com/cpp/cpp_for_loop.asp" style="color: white;">Documentation</a>
 * [ ] Array
 
 ## <div id="pengenalan">Pengenalan C++</div>
@@ -197,7 +197,7 @@ int main() {
 	switch(nilai){
 		case 1: // 5 tidak sama dengan 1 maka baris ini akan dilewati
 			cout << "satu" << endl;
-			break;
+			break; // Pembatasan atau limit kata agar setelah kode dieksekusi maka berhentilah operasi dari compiler kode
 		case 2: // 5 tidak sama dengan 2 juga maka baris ini akan dilewati
 			cout << "dua" << endl;
 			break;
@@ -212,4 +212,20 @@ int main() {
 }
 </pre>
 
-Switch case agak mirip dengan if else hanya saja percabangan satu ini lebih spesifik kriterianya, nilai tersebut akan di switch hingga menemukan case yang tepat? maksudnya jika kita ingin mendefinisikan 5 adalah lima maka tunggu sampai nilai tersebut sama dengan kriteria dari variable si case ini, maka jika nilai dan variable yang dicek sudah sama/sesuai kriteria tampillah output tersebut.
+Switch case agak mirip dengan if else hanya saja percabangan satu ini lebih spesifik kriterianya, nilai tersebut akan di switch hingga menemukan case yang tepat? maksudnya jika kita ingin mendefinisikan 5 adalah lima maka tunggu sampai nilai tersebut sama dengan kriteria dari variable si case ini, maka jika nilai dan variable yang dicek sudah sama/sesuai kriteria lalu tampil-lah output tersebut. 
+
+## <div id="perulangan">Struktur Kontrol Perulangan</div>
+Looping atau perulangan terkenal dengan menulis berulang kali, kali ini kita akan membahasnya dengan simple langsung saja yok 3 Struktur dalam Perulangan.
+Jenis jenis struktur perulangannya :
+<pre>for, while, do..while </pre>
+Apa maksud dari jenis jenis diatas? kita akan bahas sama-sama satu persatu dibawah ini ya :D 
+
+#### Perulangan for #1 :
+<pre>
+for (int x = 1; x <= 10; x = x+1) {
+	cout << "1" << " ";
+	}
+</pre>
+kode diatas akan menghasilkan output :
+<pre>1 1 1 1 1 1 1 1 1 1</pre>
+Jika ingin menambahkan Jumlahnya sampai 100 ataupun 1000 bisa mengubah nilainya pada <= "10" menjadi "100" atau "1000".
