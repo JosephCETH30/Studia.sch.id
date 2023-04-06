@@ -9,7 +9,7 @@ Hanya untuk Simpenan Pribadi :)
 * [x] Input dan Output <a href="#iou" style="color: white;">(Click Here)</a> <a href="https://cplusplus.com/doc/tutorial/basic_io/" style="color: white;">Documentation</a> <br>
 * [x] Tipe data dan Variable <a href="#datavar" style="color: white;">(Click Here)</a> <a href="https://blog.rumahcoding.co.id/variabel-dan-tipe-data-pada-c/" style="color: white;">Documentation</a> <br>
 * [x] Komentator Pemrograman <a href="#komen" style="color: white;">(Click Here)</a> <a href="https://www.youtube.com/watch?v=6-rZAqE2o6c&t=687s" style="color: white;">Documentation</a>
-* [ ] Struktur Kontrol Percabangan
+* [x] Struktur Kontrol Percabangan <a href="#strukturkontrol" style="color: white;">(Click Here)</a> <a href="https://www.scaler.com/topics/control-structure-in-cpp/#:~:text=Control%20Structures%20are%20used%20to,else%20ladder%20and%20switch%20statements." style="color: white;">Documentation</a>
 * [ ] Struktur Kontrol Perulangan
 * [ ] Array
 
@@ -129,4 +129,20 @@ Catatan yang bisa dituliskan untuk Multiple Baris
 Untuk sebuah komentar wajib menggunakan salah satu dari 2 tanda diatas, karena Jika kita lupa menggunakan symbol tersebut untuk sebuah komentar maka akan menimbulkan error pada kode saat di execute / di run.
 
 ## <div id="strukturkontrol">Struktur Kontrol Percabangan</div>
+Jadi ketika kita Menemukan suatu Kasus seperti : Seseorang Bisa dinyatakan lulus saja jika Nilai mereka diatas 80 / minimal 75 , Jika tidak maka ia tidak lulus.
+Jika dikaitkan dengan kasus matematika maka bisa diimplementasikan seperti ini : Jika nilai tersebut dibawah 0.35 atau kurang maka ia mendapatkan predikat D, sebaliknya jika tidak maka Menyesuaikan tergantung daripada nilai tersebut. 
+
+Contohnya untuk Percabangan if : 
+<pre>
+int main() {
+	
+	int nilai = 80; // nilai dari suatu tipe data
+	
+	if (nilai >= 75) { // Jika nilai lebih besar atau sama dengan 75 atau sebutlah jika nilai tersebut adalah True maka kode dibawah akan dieksekusi
+		cout << "lulus" << endl; // maka nilai tersebut dinyatakan lulus karena nilai tipe datanya adalah 80 otomatis memenuhi kriteria
+	}
+	
+	return 0;
+}
+</pre>
 
