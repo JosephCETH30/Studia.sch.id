@@ -189,3 +189,27 @@ int main(){
 if else if bisa sepanjang apapun sesuai yang kita mau dan tergantung kebutuhan, dan kita bisa menaruh else terakhir untuk menyatakan nilai tersebut tidak sesuai dengan kriteria manapun (tergantung kondisi kode), untuk mempelajari symbol operasinya : <a href="https://www.petanikode.com/cpp-operator/">Disini</a>
 
 #### Contoh Percabangan Switch case #4 :
+<pre>
+int main() {
+	
+	int nilai = 5; // nilai dari suatu tipe data
+	
+	switch(nilai){
+		case 1: // 5 tidak sama dengan 1 maka baris ini akan dilewati
+			cout << "satu" << endl;
+			break;
+		case 2: // 5 tidak sama dengan 2 juga maka baris ini akan dilewati
+			cout << "dua" << endl;
+			break;
+		case 3: // 5 tidak sama dengan 3 juga maka baris ini akan dilewati
+			cout << "tiga" << endl;
+			break;
+		default: // Jika nilai tersebut tidak sama dengan kriteria diatas maka baris kode ini akan dieksekusi
+			cout << "undefinied" << endl;
+	}
+	
+	return 0;
+}
+</pre>
+
+Switch case agak mirip dengan if else hanya saja percabangan satu ini lebih spesifik kriterianya, nilai tersebut akan di switch hingga menemukan case yang tepat? maksudnya jika kita ingin mendefinisikan 5 adalah lima maka tunggu sampai nilai tersebut sama dengan kriteria dari variable si case ini, maka jika nilai dan variable yang dicek sudah sama/sesuai kriteria tampillah output tersebut.
