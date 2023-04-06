@@ -8,7 +8,7 @@ Hanya untuk Simpenan Pribadi :)
 * [x] Program C++ Pertama <a href="#programpertama" style="color: white;">(Click Here)</a> <a href="https://www.youtube.com/watch?v=6-rZAqE2o6c&t=687s" style="color: white;">Documentation</a> <br>
 * [x] Input dan Output <a href="#iou" style="color: white;">(Click Here)</a> <a href="https://cplusplus.com/doc/tutorial/basic_io/" style="color: white;">Documentation</a> <br>
 * [x] Tipe data dan Variable <a href="#datavar" style="color: white;">(Click Here)</a> <a href="https://blog.rumahcoding.co.id/variabel-dan-tipe-data-pada-c/" style="color: white;">Documentation</a> <br>
-* [ ] Komentator Pemrograman
+* [x] Komentator Pemrograman <a href="#komen" style="color: white;">(Click Here)</a> <a href="https://www.youtube.com/watch?v=6-rZAqE2o6c&t=687s" style="color: white;">Documentation</a>
 * [ ] Struktur Kontrol Percabangan
 * [ ] Struktur Kontrol Perulangan
 * [ ] Array
@@ -68,3 +68,64 @@ int main() {
 Note : Jangan lupa memperhatikan tanda / symbol pada kode karena pada bahasa pemrogramman tertentu tanda tersebut sangatlah sensitif. karena jika error kita akan sulit menemukan lokasinya karena terlalu spesifik kecilnya, apalagi karena kesalahan seperti kepencet (.) atau typos pada kode. 
 
 ## <div id="datavar">Tipe Data dan Variable</div>
+
+Detail singkat mengenai Penggunaan Tipe Data dan Variable.
+
+<pre>
+int main() {
+
+short, int, long ==> bilangan bulat // urutan dari kapasitas terkecil ke kapasitas terbesar jadi ibaratnya wadah air (short : gelas kopi, int : bak kamar mandi, long : danau) dari yang terkecil ke terbesar
+float, double ==> bilangan pecahan // kasusnya sama seperti short, int, long. volume terkecil ke terbesar
+char => 1 karakter
+bool => logika benar / salah
+string => kata-kata
+
+return 0;
+}
+</pre>
+dan Contoh Penggunaannya adalah sebagai berikut ini : <br><br>
+![image](https://user-images.githubusercontent.com/127705735/230269349-1bc71070-0544-47b0-9611-a01496af6ce2.png)
+
+<pre>
+#include <iostream>
+using namespace std;
+
+int main() {
+	
+	short angka1 = 80;
+	int angka2 = 50000;
+	long angka3 = 2000000000; // Jika merasa limit angka yang panjang error silahkan tambahkan L di akhir daripada angka tersebut maka output akan meneghasilkan angka yang sebenarnya tanpa error
+	float angka4 = 0.75;
+	double angka5 = 0.000078;
+	char karakter = 'A'; // Char hanya bisa menampung input 1 kata saja
+	bool logika = true; // boolean itu adalah 0 ataupun 1 disebut dengan true or false dua pilihan jalan saja
+	string nama = "Joseph R."; 
+	
+	cout << angka1 << endl;
+	cout << angka2 << endl;
+	cout << angka3 << endl;
+	cout << angka4 << endl;
+	cout << angka5 << endl;
+	cout << karakter << endl;
+	cout << logika << endl;
+	cout << nama << endl;
+	
+	return 0;
+	}
+</pre>
+Sekiranya Seperti itulah Tipe Data dan Variable simple yang ada di C++ untuk awal awal saja, untuk kelanjutannya nanti kita akan bahas ya :)
+
+## <div id="komen">Komentator Pemrograman</div>
+Komentar Pemrograman atau Bahasa inggrisnya adalah Comments berguna untuk menjelaskan fungsi dari sebuah line kode dalam bentuk komen, Contohnya : 
+
+<pre>
+// Catatan yang hanya bisa dituliskan Untuk keperluan satu baris saja
+
+/*
+Catatan yang bisa dituliskan untuk Multiple Baris
+*/
+</pre>
+
+Untuk sebuah komentar wajib menggunakan salah satu dari 2 tanda diatas, karena Jika kita lupa menggunakan symbol tersebut untuk sebuah komentar maka akan menimbulkan error pada kode saat di execute / di run.
+
+## <div id="strukturkontrol">Struktur Kontrol Percabangan</div>
