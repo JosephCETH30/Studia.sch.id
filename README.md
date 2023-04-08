@@ -1,5 +1,5 @@
-# C++ Self Courses untuk Kuliah Semester 1
-Hanya untuk Simpenan Pribadi :)
+# C++ Self Courses (Pengenalan CPP)
+Hanya untuk Simpenan Pribadi & untuk nanti Kuliah:)
 
 ## List yang harus dipelajari
 <pre> Source : Adi Setiawan <a href="https://www.youtube.com/watch?v=6-rZAqE2o6c">Youtube</a></pre>
@@ -11,7 +11,7 @@ Hanya untuk Simpenan Pribadi :)
 * [x] Komentator Pemrograman <a href="#komen" style="color: white;">(Click Here)</a> <a href="https://www.youtube.com/watch?v=6-rZAqE2o6c&t=687s" style="color: white;">Documentation</a>
 * [x] Struktur Kontrol Percabangan <a href="#strukturkontrol" style="color: white;">(Click Here)</a> <a href="https://www.scaler.com/topics/control-structure-in-cpp/#:~:text=Control%20Structures%20are%20used%20to,else%20ladder%20and%20switch%20statements." style="color: white;">Documentation</a>
 * [x] Struktur Kontrol Perulangan <a href="#perulangan" style="color: white;">(Click Here)</a> <a href="https://www.w3schools.com/cpp/cpp_for_loop.asp" style="color: white;">Documentation</a>
-* [ ] Array
+* [x] Array <a href="#array" style="color: white;">(Click Here)</a> <a href="https://www.w3schools.com/cpp/" style="color: white;">Documentation</a>
 
 ## <div id="pengenalan">Pengenalan C++</div>
 
@@ -254,3 +254,17 @@ Output akan Tampil saat kondisi while terpenuhi atau True.
 	} while(x <=10); // kuncinya ada disini, do akan dilakukan jika kondisi while adalah true 
 </pre>
 Do While akan hanya dijalankan jika kondisi while adalah true seperti yang sudah dijelaskan di atas juga.
+
+## <div id="array">Array</div>
+Dalam array, setiap nilai yang disimpan diberi nomor indeks yang dimulai dari nol (0). Nomor indeks ini nantinya akan digunakan untuk mengakses nilai yang disimpan di dalam array. Dengan menggunakan array, Anda dapat dengan mudah memanipulasi dan mengakses nilai-nilai tersebut tanpa harus membuat banyak variabel terpisah.
+<pre>
+// array (Multiple Variable)
+	int nilaisiswa[5] = {80,90,100,65,55}; // 5 Coloumn for "nilai" Variable
+	
+// cout << nilaisiswa[3] << endl; // every index is started from 0
+	for (int x = 0; x < 5; x++){ // untuk setiap x dimulai dari 0, x kurang dari 5, setiap x ditambah 1
+		cout << nilaisiswa[x] << " "; // x adalah untuk menampilkan keseluruhan isi dari variable nilaisiswa
+		// jika ingin menampilkan output spesifik seperti "nilaisiswa[2]" maka nilai 100 atau nilai barisan ketiga akan tampil pada output.
+	}
+</pre>
+Sekian Pembahasan Mengenai Array sekaligus menutup Selfcourse pengenalan C++ Kita kali ini, Peace!
