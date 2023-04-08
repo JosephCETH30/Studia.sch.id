@@ -229,3 +229,28 @@ for (int x = 1; x <= 10; x = x+1) {
 kode diatas akan menghasilkan output :
 <pre>1 1 1 1 1 1 1 1 1 1</pre>
 Jika ingin menambahkan Jumlahnya sampai 100 ataupun 1000 bisa mengubah nilainya pada <= "10" menjadi "100" atau "1000".
+
+#### Perulangan while #2 : 
+<pre>
+int x = 1;
+	while(x<=10) { // x diulang sampai 10 kali
+		cout << x << " "; // output dimulai dari x yaitu 1.
+		x = x + 1; // dan output selanjutnya adalah setiap x itu ditambah 1, seperti yang ditampilkan dibawah ini.
+	}
+</pre>
+kode diatas akan menghasilkan output :
+<pre>
+1 2 3 4 5 6 7 8 9 10
+</pre>
+Output akan Tampil saat kondisi while terpenuhi atau True.
+
+#### Perulangan do.while #3 :
+<pre>
+	int x = 1;
+	do { 
+		cout << x << " "; // output dimulai dari x yaitu 1.
+		x = x + 1; // dan output selanjutnya adalah setiap x itu ditambah 1, seperti yang ditampilkan dibawah ini.
+		
+	} while(x <=10); // kuncinya ada disini, do akan dilakukan jika kondisi while adalah true 
+</pre>
+Do While akan hanya dijalankan jika kondisi while adalah true seperti yang sudah dijelaskan di atas juga.
