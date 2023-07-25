@@ -2,9 +2,9 @@
 Hanya untuk Simpenan Pribadi & untuk nanti Kuliah:)
 
 ## List yang harus dipelajari
-<pre>
+
 * [x] Pengenalan C++ <a href="#pengenalan" style="color: white;">(Click Here)</a> <a href="https://www.w3schools.com/cpp/cpp_intro.asp" style="color: white;">Documentation</a> <br>
-* [x] Menentukan Bilangan Prima dengan C++ <a href="#" style="color: white;">(Click Here)</a> <a href="#" style="color: white;">Documentation</a> <br> </pre>
+* [x] Menentukan Bilangan Prima dengan C++ <a href="#" style="color: white;">(Click Here)</a> <a href="#" style="color: white;">Documentation</a> <br> 
 
 ## <div id="pengenalan">Pengenalan C++</div>
 
