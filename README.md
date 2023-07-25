@@ -1,10 +1,10 @@
-# C++ Self Courses (Pengenalan CPP)
+# C++ Self Courses (Hanya Tentang CPP)
 Hanya untuk Simpenan Pribadi & untuk nanti Kuliah:)
 
 ## List yang harus dipelajari
-<pre> Source : Adi Setiawan <a href="https://www.youtube.com/watch?v=6-rZAqE2o6c">Youtube</a></pre>
+<pre>
 * [x] Pengenalan C++ <a href="#pengenalan" style="color: white;">(Click Here)</a> <a href="https://www.w3schools.com/cpp/cpp_intro.asp" style="color: white;">Documentation</a> <br>
-* [x] Menentukan Bilangan Prima dengan C++ <a href="#" style="color: white;">(Click Here)</a> <a href="#" style="color: white;">Documentation</a> <br>
+* [x] Menentukan Bilangan Prima dengan C++ <a href="#" style="color: white;">(Click Here)</a> <a href="#" style="color: white;">Documentation</a> <br> </pre>
 
 ## <div id="pengenalan">Pengenalan C++</div>
 
