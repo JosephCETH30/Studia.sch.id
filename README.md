@@ -4,14 +4,7 @@ Hanya untuk Simpenan Pribadi & untuk nanti Kuliah:)
 ## List yang harus dipelajari
 <pre> Source : Adi Setiawan <a href="https://www.youtube.com/watch?v=6-rZAqE2o6c">Youtube</a></pre>
 * [x] Pengenalan C++ <a href="#pengenalan" style="color: white;">(Click Here)</a> <a href="https://www.w3schools.com/cpp/cpp_intro.asp" style="color: white;">Documentation</a> <br>
-* [x] Kebutuhan Software untuk Pemrograman <a href="#kebutuhansoftware" style="color: white;">(Click Here)</a> <a href="https://www.codecademy.com/resources/blog/what-is-c-plus-plus-used-for/" style="color: white;">Documentation</a> <br>
-* [x] Program C++ Pertama <a href="#programpertama" style="color: white;">(Click Here)</a> <a href="https://www.youtube.com/watch?v=6-rZAqE2o6c&t=687s" style="color: white;">Documentation</a> <br>
-* [x] Input dan Output <a href="#iou" style="color: white;">(Click Here)</a> <a href="https://cplusplus.com/doc/tutorial/basic_io/" style="color: white;">Documentation</a> <br>
-* [x] Tipe data dan Variable <a href="#datavar" style="color: white;">(Click Here)</a> <a href="https://blog.rumahcoding.co.id/variabel-dan-tipe-data-pada-c/" style="color: white;">Documentation</a> <br>
-* [x] Komentator Pemrograman <a href="#komen" style="color: white;">(Click Here)</a> <a href="https://www.youtube.com/watch?v=6-rZAqE2o6c&t=687s" style="color: white;">Documentation</a>
-* [x] Struktur Kontrol Percabangan <a href="#strukturkontrol" style="color: white;">(Click Here)</a> <a href="https://www.scaler.com/topics/control-structure-in-cpp/#:~:text=Control%20Structures%20are%20used%20to,else%20ladder%20and%20switch%20statements." style="color: white;">Documentation</a>
-* [x] Struktur Kontrol Perulangan <a href="#perulangan" style="color: white;">(Click Here)</a> <a href="https://www.w3schools.com/cpp/cpp_for_loop.asp" style="color: white;">Documentation</a>
-* [x] Array <a href="#array" style="color: white;">(Click Here)</a> <a href="https://www.w3schools.com/cpp/" style="color: white;">Documentation</a>
+* [x] Menentukan Bilangan Prima dengan C++ <a href="#" style="color: white;">(Click Here)</a> <a href="#" style="color: white;">Documentation</a> <br>
 
 ## <div id="pengenalan">Pengenalan C++</div>
 
