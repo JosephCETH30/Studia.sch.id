@@ -1,0 +1,21 @@
+(((((((((( Menentukan Bilangan Prima dengan c++ ))))))))))
+
+Tentu! Berikut adalah contoh soal competitive programming menggunakan C++ 
+
+
+Soal: Bilangan Prima
+
+Buatlah sebuah program C++ untuk menentukan apakah sebuah bilangan bulat positif N merupakan bilangan prima atau bukan. Bilangan prima adalah bilangan yang lebih besar dari 1 dan hanya memiliki dua faktor, yaitu 1 dan dirinya sendiri.
+
+Contoh input
+N = 7 
+
+Bilangan 7 adalah Bilangan Prima (N = prima)
+
+Input
+N = 12
+
+Output
+Bilangan 12 Bukan bilangan Prima 
+
+Berikut adalah Implementasi programnya untuk menyelesaikan soal Tersebut : <a href="belajar1.h">(Click Here)</a>
